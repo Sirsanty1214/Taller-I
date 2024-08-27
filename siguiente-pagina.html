@@ -21,10 +21,13 @@
         </table>
         
     </header>
-    <li><a href="#Elfo oscuro">Elfo oscuro</a></li>
-    <li><a href="#Elfa del bosque">Elfa del bosque</a></li>
-    <li><a href="#Diablesa">Diablesa</a></li>
-    <li><a href="#Seraphín">Seraphín</a></li>
+    <button><li><a href="#Elfo oscuro">Elfo oscuro</a></li></button>
+    <br>
+    <button><li><a href="#Elfa del bosque">Elfa del bosque</a></li></button>
+    <br>
+    <button><li><a href="#Diablesa">Diablesa</a></li></button>
+    <br>
+    <button><li><a href="#Seraphín">Seraphín</a></li></button>
 <br>
 
     <label id="Elfo oscuro"> Elfo oscuro</label>
@@ -126,6 +129,16 @@
         <table border="16" style="width: 100;">
             <tr>
                 <td width="100%">
+                    <fieldset>
+                        <label>Nombre:</label>
+        <input
+          type="text"
+          name="nombreInp"
+          maxlength="10"
+          placeholder="Ingrese el nombre"
+          value=""
+          required
+        />
                     <form action=""> <label style="color: #e7e7e7;">Observaciones:</label>
                         <br>
                         <textarea name="OPINIONES DEL PUBLICO" cols="90" rows="10">
@@ -133,6 +146,8 @@
                         </textarea>
                         <br>
                     </td>
+                </fieldset>
+                <legend style="color: #e7e7e7;">Comparteme tu opinion</legend>
                     <label for="">Apartado de copy</label>
                     <td width="100%">
                         <p style="color: #e7e7e7;">&copy; 2024 Santiago Bonilla. Todos los derechos reservados.</p>
