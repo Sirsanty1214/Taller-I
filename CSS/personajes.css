@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding-top: 140px;
+    font-family: 'Georgia', serif;
+    color: white;
+    background-image: url('../Recursos/fondo.png');
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+h1{
+    font-family: 'MedievalSharp', cursive;
+    color: #000000 ;
+}
+
+h2{
+    font-family: 'MedievalSharp', cursive;
+    color: #e40be4;
+}
+
+header {
+    background: rgb(78,48,12);
+    background: linear-gradient(90deg, rgba(78,48,12,1) 9%, rgba(98,72,1,1) 47%, rgba(54,44,5,1) 58%, rgba(60,43,3,1) 100%);    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 0.5px 0.5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.personajes-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.personaje {
+    margin: 20px;
+}
+
+.personaje img {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+/* Efecto al pasar el ratón por encima */
+.personaje img:hover {
+    transform: scale(1.1);
+}
+.compra-juego {
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:15px;
+	border:2px solid #e7f0ed;
+	display:inline-block;
+	cursor:pointer;
+	color:#f7f7f7;
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	padding:12px 11px;
+	text-decoration:none;
+	text-shadow:0px 0px 1px #97bdb7;
+}
+.compra-juego:hover {
+	background-color:transparent;
+}
+.compra-juego:active {
+	position:relative;
+	top:1px;
+}
+
+.foros {
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:15px;
+	border:2px solid #e7f0ed;
+	display:inline-block;
+	cursor:pointer;
+	color:#f7f7f7;
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	padding:12px 11px;
+	text-decoration:none;
+	text-shadow:0px 0px 1px #97bdb7;
+}
+.foros:hover {
+	background-color:transparent;
+}
+.foros:active {
+	position:relative;
+	top:1px;
+}
+
+.boton-personajes {
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:15px;
+	border:2px solid #e7f0ed;
+	display:inline-block;
+	cursor:pointer;
+	color:#f7f7f7;
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	padding:12px 11px;
+	text-decoration:none;
+	text-shadow:0px 0px 1px #97bdb7;
+}
+.boton-personajes:hover {
+	background-color:transparent;
+}
+.boton-personajes:active {
+	position:relative;
+	top:1px;
+}
